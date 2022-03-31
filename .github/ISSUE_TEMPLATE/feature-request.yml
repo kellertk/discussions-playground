@@ -18,7 +18,7 @@ body:
       label: Use Case
       description: |
         Why do you need this feature? For example: "I'm always frustrated when..."
-      validations:
+    validations:
         required: true
   - type: textarea
     id: solution
@@ -55,5 +55,5 @@ body:
     id: environment
     attributes:
       label: CHANGEME environment details (OS name and version, etc.)
-      validations:
+    validations:
         required: true
